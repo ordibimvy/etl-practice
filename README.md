@@ -9,15 +9,16 @@ The script demonstrates core ETL concepts including **data extraction**, **data 
 
 ## Project Structure
 etl_practice.py
-├── extract_from_csv() # Extracts data from CSV files
-├── extract_from_json() # Extracts data from JSON files
-├── extract_from_xml() # Extracts data from XML files
-├── extract() # Combines all extracted data
-├── transform() # Cleans and rounds price values
-├── load_data() # Writes final dataset to CSV
-├── log_progress() # Records timestamps and messages
-├── log_file.txt # Logs ETL events
-└── transformed_data.csv # Output after transformation
+    ```bash
+    ├── extract_from_csv() # Extracts data from CSV files
+    ├── extract_from_json() # Extracts data from JSON files
+    ├── extract_from_xml() # Extracts data from XML files
+    ├── extract() # Combines all extracted data
+    ├── transform() # Cleans and rounds price values
+    ├── load_data() # Writes final dataset to CSV
+    ├── log_progress() # Records timestamps and messages
+    ├── log_file.txt # Logs ETL events
+    └── transformed_data.csv # Output after transformation
 
 ---
 
