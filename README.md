@@ -9,6 +9,7 @@ The script demonstrates core ETL concepts including **data extraction**, **data 
 
 ## Project Structure
 etl_practice.py
+
     ├── extract_from_csv() # Extracts data from CSV files
     
     ├── extract_from_json() # Extracts data from JSON files
